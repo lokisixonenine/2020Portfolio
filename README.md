@@ -5,7 +5,7 @@ This repo holds the files for my updated portfolio that not only showcases the p
 This portfolio incorporates the following technologies:
 
 * HTML/CSS/JavaScript
-* Bootstrap, Google CDN, cdnjs, and a few other readily avaible CDNs
+* Bootstrap, Google CDN, cdnjs, and a few other readily available CDNs
 * Node.js
 * Progressive Web Application Technology
 * React
