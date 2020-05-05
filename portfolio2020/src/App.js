@@ -9,7 +9,7 @@ function App() {
   return (
 <div className="demo-big-content">
     <Layout>
-        <Header title="Jaycee's Portfolio" scroll>
+        <Header className="header-color" title="Jaycee's Portfolio" scroll>
             <Navigation>
                 <Link to="/aboutme">About Jaycee</Link>
                 <Link to="/resume">Resume</Link>

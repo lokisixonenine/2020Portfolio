@@ -1,38 +1,106 @@
-.App {
+.header-color  {
+  background: #ffe259;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* gradient code is from https://uigradients.com/ - this is the gradient called "mango" */
+}
+
+.landing-grid {
+  background: #ffe259;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffa751, #ffe259);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* gradient code is from https://uigradients.com/ - this is the gradient called "mango" */
   text-align: center;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* This bit styles the avatar that is currently on the landing page */
+.avatar-img {
+   height: 200px;
+   border: 3px solid white;
+   border-radius: 50%;
+ }
+
+ /* We style the h1 heading on the landing page with these next two snippets */
+ .banner-text {
+   background-color: black;
+   opacity: .60;
+   width: 70%;
+   margin: auto;
+   border-radius: 15px;
+ }
+
+ /* We styled the banner itself in the previous snippet. Now we have to target the H1 element */
+ .banner-text h1 {
+   font-size: 70px;
+   font-weight: bold;
+   color: white;
+ }
+
+/* Added a horizontal line on the landing page banner. We can style it here */
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 75%;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* again, we are styling the paragraph element under the banner so we do this */
+.banner-text p {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
   color: white;
+  font-size: 25px;
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+/* after adding social media links, we need to style the icons */
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* to style the icons themselves, we need to target the i tag */
+.social-links i {
+  color: wheat;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* contact page's styling */
+.contact-body {
+  margin: auto;
+  background: lightsalmon;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 600px;
+  background: whitesmoke;
+  color: black;
+  border: 2px solid palevioletred;
 }
