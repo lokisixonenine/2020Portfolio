@@ -1,0 +1,25 @@
+{
+  "name": "2020portfolio",
+  "version": "1.0.0",
+  "description": "Updated portfolio using react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokisixonenine/2020Portfolio.git"
+  },
+  "author": "Jaycee Bagtas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokisixonenine/2020Portfolio/issues"
+  },
+  "homepage": "https://github.com/lokisixonenine/2020Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-mdl": "^2.1.0",
+    "react-router-dom": "^5.1.2",
+    "save": "^2.4.0"
+  }
+}
