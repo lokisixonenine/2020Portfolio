@@ -150,8 +150,10 @@
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   justify-content: center;
+  padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 5px dotted lightgreen;
+  border-top: 3px solid darkorange;
+  border-bottom: 5px dotted lightpink;
   width: auto;
   color: white;
 }
