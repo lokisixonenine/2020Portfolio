@@ -124,3 +124,9 @@
   font-size: 50px;
   padding-right: 5rem;
 }
+
+/* Resume styling portion */
+.resume-right-col {
+  background: darksalmon;
+  color: white;
+}
