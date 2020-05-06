@@ -8,7 +8,7 @@ class Contact extends Component {
                     <Cell col={4}>
                         <h2>Jaycee Bagtas</h2>
                         <img 
-                        src="https://lokisixonenine.com/assets/images/jaycee.jpg"
+                        src="https://lokisixonenine.com/assets/images/jayceeArnisAvatar.png"
                         alt="jaycee"
                         style={{height: '200px', borderRadius: '50%'}}
                         />
