@@ -5,22 +5,23 @@ class Contact extends Component {
         return(
             <div className = "contact-body">
                 <Grid className = "contact-grid">
-                    <Cell col={6}>
+                    <Cell col={4}>
                         <h2>Jaycee Bagtas</h2>
                         <img 
                         src="https://lokisixonenine.com/assets/images/jaycee.jpg"
                         alt="jaycee"
                         style={{height: '200px', borderRadius: '50%'}}
                         />
+                        <h3 className = "contact-line">Web Developer</h3>
                         < p style = {
                             {
                                 width: '75%',
                                 margin: 'auto',
                                 paddingTop: '1em'
-                            }
-                        }>I look forward to helping you achieve your creative goals! I am available for all kinds of development work. Email or call and give me a day or two to get back to you. If you call, please leave a message as I get a lot of robocallers.</p>
+                            }}>Since things aren't always #000000 and #ffffff, let me be the CSS to your HTML - Let's work together and give your customers the best instance of you!
+                        I am only a phone call, text message, or email away!</p>
                     </Cell>
-                    <Cell col={6}>
+                    <Cell col={8}>
                         <h2>Contact Me</h2>
                         <hr/>
                         <div className="contact-list">

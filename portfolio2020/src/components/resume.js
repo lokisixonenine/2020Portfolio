@@ -12,7 +12,27 @@ class Resume extends Component {
                             <img src="https://lokisixonenine.com/assets/images/jaycee.jpg" alt="jaycee" style={{height: '200px', borderRadius: '50%'}}/>
                             </div>
                         </Cell>
-                        <Cell className="resume-right-col" col={9}>Right Side</Cell>
+                        <Cell className="resume-right-col" col={9}>
+                            <h3 className = "resume-line">Professional Summary</h3>
+                            < p className = "resume-heading" > I am a post - secondary education administrator who has been doing freelance web designer on and off
+                            for years.I am transitioning into software development fulltime and am currently enrolled in a Full Stack Boot Camp at the University of California, San Diego, Extenstion. My current expected completion date is June 2020. < /p>
+
+                            <h3 className = "resume-line">Education</h3>
+                            <h4 className = "resume-heading-a">Full Stack Boot Camp</h4>
+                            <p className="resume-heading">- University of California, San Diego Extension, December 2019 - June 2020</p>
+                            
+                            <h3 className = "resume-line">Work History</h3>
+                            <h4 className = "resume-heading-a">Full Stack Boot Camp Student</h4>
+                            <p className="resume-heading">- University of California, San Diego Extension, December 2019 - June 2020</p>
+                            <h4 className = "resume-heading-a">Director of Financial Aid and Admissions</h4>
+                            <p className="resume-heading">- San Diego Culinary Institute, October 2010 - December 2019</p>
+                            <h4 className = "resume-heading-a">Director of Admissions</h4>
+                            <p className="resume-heading">- San Diego Culinary Institute, May 2006 - October 2010</p>
+                            <h4 className = "resume-heading-a">Manager of Admissions and Marketing</h4>
+                            <p className="resume-heading">- San Diego Culinary Institute, February 2003 - May 2006</p>
+
+                            
+                        </Cell>
                 </Grid>
             </div>
         )

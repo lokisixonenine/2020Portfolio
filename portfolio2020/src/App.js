@@ -11,6 +11,7 @@ function App() {
     <Layout>
         <Header className="header-color" title="Jaycee's Portfolio" scroll>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/aboutme">About Jaycee</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>                
@@ -19,6 +20,7 @@ function App() {
         </Header>
         <Drawer title="Navigation">
             <Navigation>
+                <Link to="/">Home</Link>                
                 <Link to="/aboutme">About Jaycee</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>                

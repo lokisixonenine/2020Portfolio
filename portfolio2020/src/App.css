@@ -125,8 +125,64 @@
   padding-right: 5rem;
 }
 
+.contact-line {
+  font-family: 'Open Sans', sans-serif;
+  border-top: 5px dotted black;
+  width: auto;
+  color: salmon;
+}
+
 /* Resume styling portion */
 .resume-right-col {
   background: darksalmon;
   color: white;
+}
+
+.resume-container {
+  text-align: left;
+  padding-left: 5px;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  color: white;
+}
+.resume-line {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 5px dotted lightgreen;
+  width: auto;
+  color: white;
+}
+
+.resume-heading-a {
+  padding-left: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resume-heading {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 5px;
+}
+
+
+/* Aboutme styling portion */
+.aboutme-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+  background: whitesmoke;
+  color: black;
+  border: 2px solid palevioletred;
+}
+
+.aboutme-grid h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.aboutme-grid h3 {
+  padding-top: 1em;
+  font-family: 'Open Sans', sans-serif;
 }
