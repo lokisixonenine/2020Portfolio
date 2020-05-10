@@ -8,6 +8,7 @@
   /* gradient code is from https://uigradients.com/ - this is the gradient called "mango" */
 }
 
+
 .landing-grid {
   background: #ffe259;
   /* fallback for old browsers */
@@ -35,8 +36,8 @@
  .banner-text {
    background-color: black;
    opacity: .60;
-   width: 70%;
-   margin: auto;
+   width: auto;
+   margin: 1em;
    border-radius: 15px;
  }
 
@@ -98,8 +99,8 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
-  height: 600px;
+  width: 90%;
+  height: auto;
   background: whitesmoke;
   color: black;
   border: 2px solid palevioletred;
@@ -121,15 +122,16 @@
 }
 
 .contact-list i {
-  font-size: 50px;
+  font-size: 25px;
   padding-right: 5rem;
 }
 
 .contact-line {
   font-family: 'Open Sans', sans-serif;
-  border-top: 5px dotted black;
+  border-top: 5px dotted grey;
   width: auto;
   color: salmon;
+  font-size: 25px;
 }
 
 /* Resume styling portion */
@@ -178,7 +180,7 @@
 .aboutme-grid {
   text-align: center;
   justify-content: center;
-  width: 80%;
+  width: 85%;
   height: auto;
   background: whitesmoke;
   color: black;
@@ -187,6 +189,7 @@
 
 .aboutme-grid h2 {
   font-family: 'Pacifico', cursive;
+  font-size: 40px;
 }
 
 .aboutme-grid h3 {

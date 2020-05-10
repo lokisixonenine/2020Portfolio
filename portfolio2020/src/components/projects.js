@@ -79,6 +79,21 @@ toggleCategories() {
                 </CardMenu>
             </Card>
         )
+
+    } else if(this.state.activeTab === 5) {
+        return (
+            <Card shadow={5} style={{minWidth:'450', margin: 'auto'}}>
+                <CardTitle style={{color: 'black', height:'300px', background: 'url(https://lokisixonenine.com/assets/images/document-dollar-512.png) center / cover'}}>Budget Tracker App</CardTitle> 
+                <CardText>This is my first attempt at creating a portable web application that serves as a digital checkbook of sorts. It has no online connectivity but it will allow you to log your budget transactions more effectively.</CardText>
+                <CardActions border>
+                    < Button colored > < a href = "https://github.com/lokisixonenine/PWA-budget-tracker" rel="noopener noreferrer" target="_blank">Github</a></Button>
+                    < Button colored > < a href = " https://jaycee--budget-tracker-pwa.herokuapp.com/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
+                </CardActions>
+                <CardMenu style={{color:'black'}}>
+                    <IconButton name = "share" />
+                </CardMenu>
+            </Card>
+        )
     }
 }
 
@@ -91,6 +106,7 @@ toggleCategories() {
                 <Tab>Simple Work Scheduler</Tab>
                 <Tab>Geeky Language Translator</Tab>
                 <Tab>Scrawl - Microblogging</Tab>
+                <Tab>Budget Tracker App</Tab>
             </Tabs>
             <section className = "projects-grid"> 
             <Grid className="projects-grid">
