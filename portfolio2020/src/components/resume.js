@@ -36,7 +36,7 @@ class Resume extends Component {
                             <p className="resume-heading">- San Diego Culinary Institute, May 2006 - October 2010</p>
                             <h4 className = "resume-heading-a">Manager of Admissions and Marketing</h4>
                             <p className="resume-heading">- San Diego Culinary Institute, February 2003 - May 2006</p>
-                            <a className ="resume-download" href="/src/components/img/jaycee_resume.pdf" download>Download my Full Resume</a>
+                            <a className ="resume-download" href="https://lokisixonenine.com/assets/images/jaycee_resume.pdf" download>Download my Full Resume</a>
                     </Cell>            
                 </Grid>
             </div>
