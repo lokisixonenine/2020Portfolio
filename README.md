@@ -13,6 +13,21 @@ This portfolio incorporates the following technologies:
 ## Project Team Members
 All of the apps showcased in this portfolio, with the exception of the apps "Talk Geeky To Me" and "Scrawl" were individual projects. "Talk Geeky To Me (Project 1)" and "Scrawl (Project 2)" were team based projects that could have never been accomplished without the help of my wonderfully talented classmates and team members Cara, Art, and Collin. You can find their repositories here:
 
-Cara (Projects 1 and 2): https://github.com/carabunnell/
-Art (Projects 1 and 2): https://github.com/steppenbar
-Collin (Project 1): https://github.com/collinkier
+* Cara (Projects 1 and 2): https://github.com/carabunnell/
+* Art (Projects 1 and 2): https://github.com/steppenbar
+* Collin (Project 1): https://github.com/collinkier
+
+## Deployed App
+This app is deployed at:
+https://www.lokisixonenine.com
+
+### Images
+![](react1.png)
+
+![](react2.png)
+
+![](react2.png)
+
+![](react4.png)
+
+![](react5.png)
